@@ -1,21 +1,21 @@
 import { useState } from 'react';
 
-function Home(){
+function Home() {
     return (
-    <div>
-        <h1>HOME</h1>
-        <contador /> 
-    </div>
+        <div>
+            <h1>HOME</h1>
+            <contador /> 
+        </div>
     )
 }
 
-function Contador(){
+function Contador() {
     const [contador,setContador] = useState(1);
 
-    function adicionarContador(){
+    function adicionarContador() {
         setContador(contador + 1);
     }
-    
+
     return(
         <div>
             <div>{contador}</div>
