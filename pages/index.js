@@ -15,6 +15,7 @@ function Contador(){
     function adicionarContador(){
         setContador(contador + 1);
     }
+    
     return(
         <div>
             <div>{contador}</div>
